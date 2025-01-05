@@ -17,9 +17,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Setup Deno
-        uses: denoland/setup-deno@v1
+        uses: denoland/setup-deno@v2
         with:
-          deno-version: 1.38.3
+          deno-version: 2.1.4
       - name: generate UI
         env:
           # auto set by GitHub, details in
